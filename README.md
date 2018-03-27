@@ -21,6 +21,10 @@ my_device.connect(on_kuzzle_connected_cb)
 ### Publish device state to *Kuzzle*
 
 ```python
+my_device_state = {
+    "temperature" : 26
+}
+
 my_device.publish_state(my_device_state)
 ```
 ### Subscribe to device changes through *Kuzzle*
