@@ -11,8 +11,6 @@ import sys
 
 
 class KuzzleIOT(object):
-    """ Device state publishing Kuzzle query fmt string"""
-
     INDEX_IOT = "iot"
     COLLECTION_DEVICE_STATES = "device-state"
     COLLECTION_DEVICE_INFO = "device-info"
